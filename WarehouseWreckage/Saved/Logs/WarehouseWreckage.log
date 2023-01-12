@@ -2805,3 +2805,698 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.12-13.00.50:376][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.01.12-13.00.53:886][240]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/MainMap.MainMap:PersistentLevel.MainMap
 [2023.01.12-13.00.53:887][240]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.05.03:528][623]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Projectile.BP_Projectile
+[2023.01.12-13.05.03:529][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.05.07:951][766]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-13.05.07:951][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.05.07:992][766]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Projectile.BP_Projectile
+[2023.01.12-13.05.07:992][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.06.08:491][677]BlueprintLog: New page: BP_Projectile をコンパイル
+[2023.01.12-13.06.08:631][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.01.12-13.06.09:056][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/BP_Projectile.uasset" SILENT=true
+[2023.01.12-13.06.09:060][706]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2023.01.12-13.06.09:061][706]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/BP_Projectile3849FE1B439E7B3175813A987C75FF14.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/BP_Projectile.uasset'
+[2023.01.12-13.06.09:072][706]AssetCheck: New page: アセット保存：BP_Projectile
+[2023.01.12-13.06.09:072][706]LogContentValidation: Display: Blueprint /Game/BP_Projectile.BP_Projectile を検証しています
+[2023.01.12-13.06.13:523][135]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.12-13.06.13:528][135]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.01.12-13.06.13:528][135]LogPlayLevel: [PlayLevel] Compiling MainMap before play...
+[2023.01.12-13.06.13:582][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.01.12-13.06.13:585][135]LogPlayLevel: PlayLevel: Blueprint regeneration took 57 ms (1 blueprints)
+[2023.01.12-13.06.13:585][135]PIE: New page: PIEセッション: MainMap (2023/01/13 7:06:13)
+[2023.01.12-13.06.13:585][135]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.01.12-13.06.13:597][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011332s)
+[2023.01.12-13.06.13:597][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.011379s)
+[2023.01.12-13.06.13:597][135]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-13.06.13:597][135]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.06.13:597][135]LogAIModule: Creating AISystem for world MainMap
+[2023.01.12-13.06.13:597][135]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2023.01.12-13.06.13:621][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.01.12-13.06.13:622][135]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.01.12-13.06.13:622][135]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.12-13.06.13:622][135]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.12-13.06.13:622][135]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.12-13.06.13:622][135]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.12-13.06.13:622][135]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.12-13.06.13:622][135]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.12-13.06.13:622][135]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.12-13.06.13:622][135]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.12-13.06.13:622][135]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.12-13.06.13:622][135]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.12-13.06.13:622][135]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.12-13.06.13:624][135]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.12-13.06.13:641][135]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (2- USBFC1-A)
+[2023.01.12-13.06.13:641][135]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.12-13.06.13:641][135]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.12-13.06.13:641][135]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.12-13.06.13:642][135]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2023.01.12-13.06.13:642][135]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2023.01.12-13.06.13:643][135]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2023.01.12-13.06.13:643][135]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2023.01.12-13.06.13:643][135]LogInit: FAudioDevice initialized.
+[2023.01.12-13.06.13:643][135]LogAudio: Display: Audio Device (ID: 33) registered with world 'MainMap'.
+[2023.01.12-13.06.13:656][135]LogLoad: Game class is 'GameModeBase'
+[2023.01.12-13.06.13:659][135]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.06.13:659][135]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.06.13:660][135]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.01.12-22.06.13
+[2023.01.12-13.06.13:660][135]LogWorld: Bringing up level for play took: 0.003975
+[2023.01.12-13.06.13:661][135]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2023.01.12-13.06.13:662][135]LogBlueprintUserMessages: [MainMap_C_15] Welcome! Let's relieve stress!
+[2023.01.12-13.06.13:662][135]LogBlueprintUserMessages: [MainMap_C_15] 0
+[2023.01.12-13.06.13:662][135]PIE: サーバーにログインしました
+[2023.01.12-13.06.13:662][135]PIE: PIE合計開始時間 0.135 秒。
+[2023.01.12-13.06.14:934][245]LogBlueprintUserMessages: [MainMap_C_15] 19
+[2023.01.12-13.06.15:233][275]LogBlueprintUserMessages: [MainMap_C_15] 18
+[2023.01.12-13.06.15:504][304]LogBlueprintUserMessages: [MainMap_C_15] 17
+[2023.01.12-13.06.15:755][330]LogBlueprintUserMessages: [MainMap_C_15] 16
+[2023.01.12-13.06.16:008][354]LogBlueprintUserMessages: [MainMap_C_15] 15
+[2023.01.12-13.06.16:220][375]LogBlueprintUserMessages: [MainMap_C_15] 14
+[2023.01.12-13.06.16:422][395]LogBlueprintUserMessages: [MainMap_C_15] 13
+[2023.01.12-13.06.16:683][420]LogBlueprintUserMessages: [MainMap_C_15] 12
+[2023.01.12-13.06.17:446][497]LogBlueprintUserMessages: [MainMap_C_15] 11
+[2023.01.12-13.06.17:648][517]LogBlueprintUserMessages: [MainMap_C_15] 10
+[2023.01.12-13.06.17:835][535]LogBlueprintUserMessages: [MainMap_C_15] 9
+[2023.01.12-13.06.17:997][551]LogBlueprintUserMessages: [MainMap_C_15] 8
+[2023.01.12-13.06.18:190][570]LogBlueprintUserMessages: [MainMap_C_15] 7
+[2023.01.12-13.06.18:379][588]LogBlueprintUserMessages: [MainMap_C_15] 6
+[2023.01.12-13.06.18:543][604]LogBlueprintUserMessages: [MainMap_C_15] 5
+[2023.01.12-13.06.18:711][620]LogBlueprintUserMessages: [MainMap_C_15] 4
+[2023.01.12-13.06.18:898][638]LogBlueprintUserMessages: [MainMap_C_15] 3
+[2023.01.12-13.06.19:063][655]LogBlueprintUserMessages: [MainMap_C_15] 2
+[2023.01.12-13.06.19:242][673]LogBlueprintUserMessages: [MainMap_C_15] 1
+[2023.01.12-13.06.19:419][690]LogBlueprintUserMessages: [MainMap_C_15] 0
+[2023.01.12-13.06.19:605][708]LogBlueprintUserMessages: [MainMap_C_15] Out of Ammo!!
+[2023.01.12-13.06.19:830][730]LogBlueprintUserMessages: [MainMap_C_15] Out of Ammo!!
+[2023.01.12-13.06.20:210][768]LogBlueprintUserMessages: [MainMap_C_15] Out of Ammo!!
+[2023.01.12-13.06.21:144][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.06.21:144][860]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.01.12-13.06.21:144][860]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-13.06.21:145][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.06.21:157][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.12-13.06.21:160][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.06.21:184][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.06.21:184][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.01.12-13.06.21:186][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.01.12-13.06.21:191][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.01.12-13.06.21:239][861]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2023.01.12-13.06.43:564][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.12-13.06.43:588][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.01.12-13.06.43:622][523]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.01.12-13.06.43:622][523]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/MainMap410162FC4662263395F21DA37FEE8616.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap'
+[2023.01.12-13.06.43:630][523]LogFileHelpers: 保存する新たな変更はありません！
+[2023.01.12-13.06.43:630][523]LogFileHelpers: Saving map 'MainMap' took 0.067
+[2023.01.12-13.06.43:640][523]AssetCheck: New page: アセット保存：MainMap
+[2023.01.12-13.06.43:641][523]LogContentValidation: Display: World /Game/MainMap.MainMap を検証しています
+[2023.01.12-13.07.14:295][162]BlueprintLog: New page: MainMap をコンパイル
+[2023.01.12-13.07.14:344][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.01.12-13.07.14:810][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.12-13.07.14:837][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.01.12-13.07.14:869][212]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.01.12-13.07.14:870][212]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/MainMap56FDBA8F43D5D70C56EE658C3018C211.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap'
+[2023.01.12-13.07.14:877][212]LogFileHelpers: 保存する新たな変更はありません！
+[2023.01.12-13.07.14:877][212]LogFileHelpers: Saving map 'MainMap' took 0.068
+[2023.01.12-13.07.14:887][212]AssetCheck: New page: アセット保存：MainMap
+[2023.01.12-13.07.14:888][212]LogContentValidation: Display: World /Game/MainMap.MainMap を検証しています
+[2023.01.12-13.07.27:166][623]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.12-13.07.27:171][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.12-13.07.27:171][623]PIE: New page: PIEセッション: MainMap (2023/01/13 7:07:27)
+[2023.01.12-13.07.27:171][623]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.01.12-13.07.27:185][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013821s)
+[2023.01.12-13.07.27:185][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.013914s)
+[2023.01.12-13.07.27:185][623]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-13.07.27:185][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.07.27:186][623]LogAIModule: Creating AISystem for world MainMap
+[2023.01.12-13.07.27:186][623]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2023.01.12-13.07.27:214][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.01.12-13.07.27:215][623]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.01.12-13.07.27:215][623]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.12-13.07.27:215][623]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.12-13.07.27:215][623]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.12-13.07.27:215][623]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.12-13.07.27:215][623]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.12-13.07.27:215][623]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.12-13.07.27:215][623]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.12-13.07.27:215][623]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.12-13.07.27:215][623]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.12-13.07.27:215][623]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.12-13.07.27:215][623]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.12-13.07.27:217][623]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.12-13.07.27:234][623]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (2- USBFC1-A)
+[2023.01.12-13.07.27:234][623]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.12-13.07.27:234][623]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.12-13.07.27:235][623]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.12-13.07.27:235][623]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.01.12-13.07.27:235][623]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2023.01.12-13.07.27:237][623]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.01.12-13.07.27:237][623]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.01.12-13.07.27:237][623]LogInit: FAudioDevice initialized.
+[2023.01.12-13.07.27:237][623]LogAudio: Display: Audio Device (ID: 34) registered with world 'MainMap'.
+[2023.01.12-13.07.27:247][623]LogLoad: Game class is 'GameModeBase'
+[2023.01.12-13.07.27:251][623]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.07.27:251][623]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.07.27:251][623]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.01.12-22.07.27
+[2023.01.12-13.07.27:251][623]LogWorld: Bringing up level for play took: 0.004103
+[2023.01.12-13.07.27:252][623]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.01.12-13.07.27:253][623]LogBlueprintUserMessages: [MainMap_C_16] Welcome! Let's relieve stress!
+[2023.01.12-13.07.27:253][623]LogBlueprintUserMessages: [MainMap_C_16] 0
+[2023.01.12-13.07.27:253][623]PIE: サーバーにログインしました
+[2023.01.12-13.07.27:253][623]PIE: PIE合計開始時間 0.082 秒。
+[2023.01.12-13.07.28:094][695]LogBlueprintUserMessages: [BP_Projectile_C_0] Hello
+[2023.01.12-13.07.28:094][695]LogBlueprintUserMessages: [MainMap_C_16] 19
+[2023.01.12-13.07.28:462][730]LogBlueprintUserMessages: [BP_Projectile_C_1] Hello
+[2023.01.12-13.07.28:462][730]LogBlueprintUserMessages: [MainMap_C_16] 18
+[2023.01.12-13.07.28:700][754]LogBlueprintUserMessages: [BP_Projectile_C_2] Hello
+[2023.01.12-13.07.28:700][754]LogBlueprintUserMessages: [MainMap_C_16] 17
+[2023.01.12-13.07.28:944][779]LogBlueprintUserMessages: [BP_Projectile_C_3] Hello
+[2023.01.12-13.07.28:944][779]LogBlueprintUserMessages: [MainMap_C_16] 16
+[2023.01.12-13.07.29:137][798]LogBlueprintUserMessages: [BP_Projectile_C_4] Hello
+[2023.01.12-13.07.29:137][798]LogBlueprintUserMessages: [MainMap_C_16] 15
+[2023.01.12-13.07.29:315][816]LogBlueprintUserMessages: [BP_Projectile_C_5] Hello
+[2023.01.12-13.07.29:315][816]LogBlueprintUserMessages: [MainMap_C_16] 14
+[2023.01.12-13.07.29:485][833]LogBlueprintUserMessages: [BP_Projectile_C_6] Hello
+[2023.01.12-13.07.29:485][833]LogBlueprintUserMessages: [MainMap_C_16] 13
+[2023.01.12-13.07.29:695][853]LogBlueprintUserMessages: [BP_Projectile_C_7] Hello
+[2023.01.12-13.07.29:695][853]LogBlueprintUserMessages: [MainMap_C_16] 12
+[2023.01.12-13.07.29:910][874]LogBlueprintUserMessages: [BP_Projectile_C_8] Hello
+[2023.01.12-13.07.29:910][874]LogBlueprintUserMessages: [MainMap_C_16] 11
+[2023.01.12-13.07.30:143][896]LogBlueprintUserMessages: [BP_Projectile_C_9] Hello
+[2023.01.12-13.07.30:143][896]LogBlueprintUserMessages: [MainMap_C_16] 10
+[2023.01.12-13.07.30:330][914]LogBlueprintUserMessages: [BP_Projectile_C_10] Hello
+[2023.01.12-13.07.30:330][914]LogBlueprintUserMessages: [MainMap_C_16] 9
+[2023.01.12-13.07.30:511][930]LogBlueprintUserMessages: [BP_Projectile_C_11] Hello
+[2023.01.12-13.07.30:511][930]LogBlueprintUserMessages: [MainMap_C_16] 8
+[2023.01.12-13.07.30:701][948]LogBlueprintUserMessages: [BP_Projectile_C_12] Hello
+[2023.01.12-13.07.30:701][948]LogBlueprintUserMessages: [MainMap_C_16] 7
+[2023.01.12-13.07.30:884][965]LogBlueprintUserMessages: [BP_Projectile_C_13] Hello
+[2023.01.12-13.07.30:884][965]LogBlueprintUserMessages: [MainMap_C_16] 6
+[2023.01.12-13.07.31:065][982]LogBlueprintUserMessages: [BP_Projectile_C_14] Hello
+[2023.01.12-13.07.31:065][982]LogBlueprintUserMessages: [MainMap_C_16] 5
+[2023.01.12-13.07.31:286][  1]LogBlueprintUserMessages: [BP_Projectile_C_15] Hello
+[2023.01.12-13.07.31:286][  1]LogBlueprintUserMessages: [MainMap_C_16] 4
+[2023.01.12-13.07.32:350][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.07.32:350][101]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.01.12-13.07.32:350][101]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-13.07.32:351][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.07.32:360][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.12-13.07.32:363][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.07.32:387][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.07.32:388][101]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.01.12-13.07.32:389][101]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.01.12-13.07.32:395][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.01.12-13.07.32:446][102]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.01.12-13.07.47:598][719]LogEditorTransaction: Undo ノードを追加
+[2023.01.12-13.08.46:487][632]BlueprintLog: New page: BP_Projectile をコンパイル
+[2023.01.12-13.08.46:624][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.01.12-13.08.46:958][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/BP_Projectile.uasset" SILENT=true
+[2023.01.12-13.08.46:962][658]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2023.01.12-13.08.46:963][658]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/BP_Projectile3FA9FA0A442C2065E9745F8FB5F4A0D1.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/BP_Projectile.uasset'
+[2023.01.12-13.08.46:976][658]AssetCheck: New page: アセット保存：BP_Projectile
+[2023.01.12-13.08.46:976][658]LogContentValidation: Display: Blueprint /Game/BP_Projectile.BP_Projectile を検証しています
+[2023.01.12-13.08.50:339][956]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.12-13.08.50:345][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.12-13.08.50:345][956]PIE: New page: PIEセッション: MainMap (2023/01/13 7:08:50)
+[2023.01.12-13.08.50:346][956]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.01.12-13.08.50:358][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012513s)
+[2023.01.12-13.08.50:358][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.012578s)
+[2023.01.12-13.08.50:358][956]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-13.08.50:358][956]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.08.50:359][956]LogAIModule: Creating AISystem for world MainMap
+[2023.01.12-13.08.50:359][956]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2023.01.12-13.08.50:387][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.01.12-13.08.50:390][956]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.01.12-13.08.50:390][956]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.12-13.08.50:390][956]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.12-13.08.50:390][956]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.12-13.08.50:390][956]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.12-13.08.50:390][956]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.12-13.08.50:390][956]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.12-13.08.50:390][956]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.12-13.08.50:390][956]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.12-13.08.50:391][956]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.12-13.08.50:391][956]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.12-13.08.50:391][956]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.12-13.08.50:393][956]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.12-13.08.50:410][956]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (2- USBFC1-A)
+[2023.01.12-13.08.50:410][956]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.12-13.08.50:410][956]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.12-13.08.50:410][956]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.12-13.08.50:412][956]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2023.01.12-13.08.50:412][956]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2023.01.12-13.08.50:413][956]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2023.01.12-13.08.50:413][956]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2023.01.12-13.08.50:413][956]LogInit: FAudioDevice initialized.
+[2023.01.12-13.08.50:413][956]LogAudio: Display: Audio Device (ID: 35) registered with world 'MainMap'.
+[2023.01.12-13.08.50:421][956]LogLoad: Game class is 'GameModeBase'
+[2023.01.12-13.08.50:425][956]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.08.50:425][956]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.08.50:425][956]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.01.12-22.08.50
+[2023.01.12-13.08.50:425][956]LogWorld: Bringing up level for play took: 0.004245
+[2023.01.12-13.08.50:426][956]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.01.12-13.08.50:427][956]LogBlueprintUserMessages: [MainMap_C_16] Welcome! Let's relieve stress!
+[2023.01.12-13.08.50:427][956]LogBlueprintUserMessages: [MainMap_C_16] 0
+[2023.01.12-13.08.50:427][956]PIE: サーバーにログインしました
+[2023.01.12-13.08.50:428][956]PIE: PIE合計開始時間 0.083 秒。
+[2023.01.12-13.08.51:144][ 18]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile
+[2023.01.12-13.08.51:144][ 18]LogBlueprintUserMessages: [MainMap_C_16] 19
+[2023.01.12-13.08.51:507][ 54]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2023.01.12-13.08.51:507][ 54]LogBlueprintUserMessages: [MainMap_C_16] 18
+[2023.01.12-13.08.51:802][ 85]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2023.01.12-13.08.51:802][ 85]LogBlueprintUserMessages: [MainMap_C_16] 17
+[2023.01.12-13.08.52:005][105]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2023.01.12-13.08.52:005][105]LogBlueprintUserMessages: [MainMap_C_16] 16
+[2023.01.12-13.08.52:183][123]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2023.01.12-13.08.52:183][123]LogBlueprintUserMessages: [MainMap_C_16] 15
+[2023.01.12-13.08.52:361][140]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2023.01.12-13.08.52:361][140]LogBlueprintUserMessages: [MainMap_C_16] 14
+[2023.01.12-13.08.52:546][157]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2023.01.12-13.08.52:546][157]LogBlueprintUserMessages: [MainMap_C_16] 13
+[2023.01.12-13.08.52:730][174]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2023.01.12-13.08.52:730][174]LogBlueprintUserMessages: [MainMap_C_16] 12
+[2023.01.12-13.08.52:941][193]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2023.01.12-13.08.52:941][193]LogBlueprintUserMessages: [MainMap_C_16] 11
+[2023.01.12-13.08.53:111][209]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2023.01.12-13.08.53:111][209]LogBlueprintUserMessages: [MainMap_C_16] 10
+[2023.01.12-13.08.53:304][226]LogBlueprintUserMessages: [BP_Projectile_C_10] BP_Projectile10
+[2023.01.12-13.08.53:304][226]LogBlueprintUserMessages: [MainMap_C_16] 9
+[2023.01.12-13.08.53:481][242]LogBlueprintUserMessages: [BP_Projectile_C_11] BP_Projectile11
+[2023.01.12-13.08.53:481][242]LogBlueprintUserMessages: [MainMap_C_16] 8
+[2023.01.12-13.08.53:649][258]LogBlueprintUserMessages: [BP_Projectile_C_12] BP_Projectile12
+[2023.01.12-13.08.53:649][258]LogBlueprintUserMessages: [MainMap_C_16] 7
+[2023.01.12-13.08.53:813][273]LogBlueprintUserMessages: [BP_Projectile_C_13] BP_Projectile13
+[2023.01.12-13.08.53:813][273]LogBlueprintUserMessages: [MainMap_C_16] 6
+[2023.01.12-13.08.54:005][291]LogBlueprintUserMessages: [BP_Projectile_C_14] BP_Projectile14
+[2023.01.12-13.08.54:006][291]LogBlueprintUserMessages: [MainMap_C_16] 5
+[2023.01.12-13.08.54:162][306]LogBlueprintUserMessages: [BP_Projectile_C_15] BP_Projectile15
+[2023.01.12-13.08.54:162][306]LogBlueprintUserMessages: [MainMap_C_16] 4
+[2023.01.12-13.08.54:335][322]LogBlueprintUserMessages: [BP_Projectile_C_16] BP_Projectile16
+[2023.01.12-13.08.54:335][322]LogBlueprintUserMessages: [MainMap_C_16] 3
+[2023.01.12-13.08.54:538][341]LogBlueprintUserMessages: [BP_Projectile_C_17] BP_Projectile17
+[2023.01.12-13.08.54:538][341]LogBlueprintUserMessages: [MainMap_C_16] 2
+[2023.01.12-13.08.54:708][357]LogBlueprintUserMessages: [BP_Projectile_C_18] BP_Projectile18
+[2023.01.12-13.08.54:708][357]LogBlueprintUserMessages: [MainMap_C_16] 1
+[2023.01.12-13.08.54:878][373]LogBlueprintUserMessages: [BP_Projectile_C_19] BP_Projectile19
+[2023.01.12-13.08.54:878][373]LogBlueprintUserMessages: [MainMap_C_16] 0
+[2023.01.12-13.08.55:048][388]LogBlueprintUserMessages: [MainMap_C_16] Out of Ammo!!
+[2023.01.12-13.08.55:214][403]LogBlueprintUserMessages: [MainMap_C_16] Out of Ammo!!
+[2023.01.12-13.08.55:403][420]LogBlueprintUserMessages: [MainMap_C_16] Out of Ammo!!
+[2023.01.12-13.08.55:580][437]LogBlueprintUserMessages: [MainMap_C_16] Out of Ammo!!
+[2023.01.12-13.08.55:761][454]LogBlueprintUserMessages: [MainMap_C_16] Out of Ammo!!
+[2023.01.12-13.08.55:943][470]LogBlueprintUserMessages: [MainMap_C_16] Out of Ammo!!
+[2023.01.12-13.08.56:148][489]LogBlueprintUserMessages: [MainMap_C_16] Out of Ammo!!
+[2023.01.12-13.08.56:333][507]LogBlueprintUserMessages: [MainMap_C_16] Out of Ammo!!
+[2023.01.12-13.08.57:233][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.08.57:234][593]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.01.12-13.08.57:234][593]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-13.08.57:235][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.08.57:243][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.12-13.08.57:248][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.08.57:273][593]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.12-13.08.57:273][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.01.12-13.08.57:274][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.01.12-13.08.57:277][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.08.57:280][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.01.12-13.08.57:331][594]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.01.12-13.09.29:168][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/BP_Projectile.uasset" SILENT=true
+[2023.01.12-13.09.29:171][294]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2023.01.12-13.09.29:172][294]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/BP_Projectile44F4013E44C7860CA9CFA289E30D85A6.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/BP_Projectile.uasset'
+[2023.01.12-13.09.29:183][294]AssetCheck: New page: アセット保存：BP_Projectile
+[2023.01.12-13.09.29:183][294]LogContentValidation: Display: Blueprint /Game/BP_Projectile.BP_Projectile を検証しています
+[2023.01.12-13.09.32:512][646]BlueprintLog: New page: MainMap をコンパイル
+[2023.01.12-13.09.32:559][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.01.12-13.09.32:878][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.12-13.09.32:906][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.01.12-13.09.32:939][679]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.01.12-13.09.32:940][679]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/MainMap6C5EB3434C3EF6251BCD66871EFA8F08.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap'
+[2023.01.12-13.09.32:947][679]LogFileHelpers: 保存する新たな変更はありません！
+[2023.01.12-13.09.32:947][679]LogFileHelpers: Saving map 'MainMap' took 0.070
+[2023.01.12-13.09.32:959][679]AssetCheck: New page: アセット保存：MainMap
+[2023.01.12-13.09.32:959][679]LogContentValidation: Display: World /Game/MainMap.MainMap を検証しています
+[2023.01.12-13.12.04:945][445]BlueprintLog: New page: BP_Projectile をコンパイル
+[2023.01.12-13.12.04:956][445]LogBlueprint: Error: [AssetLog] C:\Users\aotak\OneDrive\デスクトップ\UnrealEngine_WareHouse\WarehouseWreckage\Content\BP_Projectile.uasset: [Compiler] 変数ノード  StaticMeshComponent を取得  は無効なターゲットを使用しています。実行チェーンに接続しないノードに依存またはパージする可能性があります
+[2023.01.12-13.12.05:079][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.01.12-13.12.51:356][424]BlueprintLog: New page: BP_Projectile をコンパイル
+[2023.01.12-13.12.51:482][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.12-13.13.47:128][260]BlueprintLog: New page: MainMap をコンパイル
+[2023.01.12-13.13.47:173][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.01.12-13.13.48:169][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.12-13.13.48:196][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.01.12-13.13.48:232][375]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.01.12-13.13.48:233][375]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/MainMapE771A62F4E320FF07A9CC0AC9A94AD69.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap'
+[2023.01.12-13.13.48:242][375]LogFileHelpers: 保存する新たな変更はありません！
+[2023.01.12-13.13.48:242][375]LogFileHelpers: Saving map 'MainMap' took 0.074
+[2023.01.12-13.13.48:253][375]AssetCheck: New page: アセット保存：MainMap
+[2023.01.12-13.13.48:253][375]LogContentValidation: Display: World /Game/MainMap.MainMap を検証しています
+[2023.01.12-13.13.50:029][538]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.12-13.13.50:034][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.12-13.13.50:034][538]PIE: New page: PIEセッション: MainMap (2023/01/13 7:13:50)
+[2023.01.12-13.13.50:055][538]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.01.12-13.13.50:066][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011432s)
+[2023.01.12-13.13.50:066][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.011525s)
+[2023.01.12-13.13.50:066][538]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-13.13.50:066][538]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.13.50:067][538]LogAIModule: Creating AISystem for world MainMap
+[2023.01.12-13.13.50:067][538]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2023.01.12-13.13.50:092][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.01.12-13.13.50:094][538]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.01.12-13.13.50:094][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.12-13.13.50:094][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.12-13.13.50:094][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.12-13.13.50:094][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.12-13.13.50:094][538]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.12-13.13.50:094][538]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.12-13.13.50:094][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.12-13.13.50:094][538]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.12-13.13.50:094][538]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.12-13.13.50:094][538]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.12-13.13.50:094][538]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.12-13.13.50:096][538]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.12-13.13.50:112][538]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (2- USBFC1-A)
+[2023.01.12-13.13.50:113][538]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.12-13.13.50:113][538]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.12-13.13.50:113][538]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.12-13.13.50:114][538]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.01.12-13.13.50:114][538]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.01.12-13.13.50:115][538]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.01.12-13.13.50:115][538]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.01.12-13.13.50:115][538]LogInit: FAudioDevice initialized.
+[2023.01.12-13.13.50:115][538]LogAudio: Display: Audio Device (ID: 36) registered with world 'MainMap'.
+[2023.01.12-13.13.50:125][538]LogLoad: Game class is 'GameModeBase'
+[2023.01.12-13.13.50:129][538]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.13.50:129][538]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.13.50:129][538]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.01.12-22.13.50
+[2023.01.12-13.13.50:129][538]LogWorld: Bringing up level for play took: 0.004418
+[2023.01.12-13.13.50:130][538]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.01.12-13.13.50:131][538]LogBlueprintUserMessages: [MainMap_C_18] Welcome! Let's relieve stress!
+[2023.01.12-13.13.50:131][538]LogBlueprintUserMessages: [MainMap_C_18] 0
+[2023.01.12-13.13.50:131][538]PIE: サーバーにログインしました
+[2023.01.12-13.13.50:132][538]PIE: PIE合計開始時間 0.099 秒。
+[2023.01.12-13.13.50:767][594]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile
+[2023.01.12-13.13.50:767][594]LogBlueprintUserMessages: [MainMap_C_18] 19
+[2023.01.12-13.13.51:155][630]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2023.01.12-13.13.51:155][630]LogBlueprintUserMessages: [MainMap_C_18] 18
+[2023.01.12-13.13.51:400][655]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2023.01.12-13.13.51:400][655]LogBlueprintUserMessages: [MainMap_C_18] 17
+[2023.01.12-13.13.51:615][676]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2023.01.12-13.13.51:615][676]LogBlueprintUserMessages: [MainMap_C_18] 16
+[2023.01.12-13.13.51:815][694]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2023.01.12-13.13.51:815][694]LogBlueprintUserMessages: [MainMap_C_18] 15
+[2023.01.12-13.13.52:012][713]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2023.01.12-13.13.52:012][713]LogBlueprintUserMessages: [MainMap_C_18] 14
+[2023.01.12-13.13.52:191][730]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2023.01.12-13.13.52:191][730]LogBlueprintUserMessages: [MainMap_C_18] 13
+[2023.01.12-13.13.52:367][746]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2023.01.12-13.13.52:367][746]LogBlueprintUserMessages: [MainMap_C_18] 12
+[2023.01.12-13.13.52:550][763]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2023.01.12-13.13.52:550][763]LogBlueprintUserMessages: [MainMap_C_18] 11
+[2023.01.12-13.13.52:761][782]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2023.01.12-13.13.52:761][782]LogBlueprintUserMessages: [MainMap_C_18] 10
+[2023.01.12-13.13.52:975][801]LogBlueprintUserMessages: [BP_Projectile_C_10] BP_Projectile10
+[2023.01.12-13.13.52:975][801]LogBlueprintUserMessages: [MainMap_C_18] 9
+[2023.01.12-13.13.53:187][820]LogBlueprintUserMessages: [BP_Projectile_C_11] BP_Projectile11
+[2023.01.12-13.13.53:187][820]LogBlueprintUserMessages: [MainMap_C_18] 8
+[2023.01.12-13.13.53:427][842]LogBlueprintUserMessages: [BP_Projectile_C_12] BP_Projectile12
+[2023.01.12-13.13.53:427][842]LogBlueprintUserMessages: [MainMap_C_18] 7
+[2023.01.12-13.13.53:630][859]LogBlueprintUserMessages: [BP_Projectile_C_13] BP_Projectile13
+[2023.01.12-13.13.53:630][859]LogBlueprintUserMessages: [MainMap_C_18] 6
+[2023.01.12-13.13.53:838][878]LogBlueprintUserMessages: [BP_Projectile_C_14] BP_Projectile14
+[2023.01.12-13.13.53:838][878]LogBlueprintUserMessages: [MainMap_C_18] 5
+[2023.01.12-13.13.54:077][900]LogBlueprintUserMessages: [BP_Projectile_C_15] BP_Projectile15
+[2023.01.12-13.13.54:077][900]LogBlueprintUserMessages: [MainMap_C_18] 4
+[2023.01.12-13.13.54:353][926]LogBlueprintUserMessages: [BP_Projectile_C_16] BP_Projectile16
+[2023.01.12-13.13.54:353][926]LogBlueprintUserMessages: [MainMap_C_18] 3
+[2023.01.12-13.13.54:607][950]LogBlueprintUserMessages: [BP_Projectile_C_17] BP_Projectile17
+[2023.01.12-13.13.54:607][950]LogBlueprintUserMessages: [MainMap_C_18] 2
+[2023.01.12-13.13.54:844][973]LogBlueprintUserMessages: [BP_Projectile_C_18] BP_Projectile18
+[2023.01.12-13.13.54:844][973]LogBlueprintUserMessages: [MainMap_C_18] 1
+[2023.01.12-13.13.55:044][992]LogBlueprintUserMessages: [BP_Projectile_C_19] BP_Projectile19
+[2023.01.12-13.13.55:044][992]LogBlueprintUserMessages: [MainMap_C_18] 0
+[2023.01.12-13.13.55:267][ 13]LogBlueprintUserMessages: [MainMap_C_18] Out of Ammo!!
+[2023.01.12-13.13.55:450][ 30]LogBlueprintUserMessages: [MainMap_C_18] Out of Ammo!!
+[2023.01.12-13.13.55:650][ 48]LogBlueprintUserMessages: [MainMap_C_18] Out of Ammo!!
+[2023.01.12-13.13.55:866][ 68]LogBlueprintUserMessages: [MainMap_C_18] Out of Ammo!!
+[2023.01.12-13.13.56:055][ 86]LogBlueprintUserMessages: [MainMap_C_18] Out of Ammo!!
+[2023.01.12-13.13.57:884][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.13.57:884][266]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.01.12-13.13.57:884][266]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-13.13.57:885][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.13.57:897][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.12-13.13.57:900][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.13.57:925][266]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.12-13.13.57:925][266]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.01.12-13.13.57:926][266]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.01.12-13.13.57:928][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.13.57:932][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.01.12-13.13.57:980][267]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.01.12-13.16.32:819][ 87]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18417751648590456535
+[2023.01.12-13.16.32:819][ 87]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2023.01.12-13.18.01:894][180]BlueprintLog: New page: MainMap をコンパイル
+[2023.01.12-13.18.01:941][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.01.12-13.18.02:774][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.12-13.18.02:800][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.01.12-13.18.02:834][272]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.01.12-13.18.02:834][272]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/MainMap43E96E8C494D6CA48028F8A6218DBBE4.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap'
+[2023.01.12-13.18.02:843][272]LogFileHelpers: 保存する新たな変更はありません！
+[2023.01.12-13.18.02:843][272]LogFileHelpers: Saving map 'MainMap' took 0.069
+[2023.01.12-13.18.02:855][272]AssetCheck: New page: アセット保存：MainMap
+[2023.01.12-13.18.02:855][272]LogContentValidation: Display: World /Game/MainMap.MainMap を検証しています
+[2023.01.12-13.18.04:113][371]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.01.12-13.18.04:119][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.12-13.18.04:119][371]PIE: New page: PIEセッション: MainMap (2023/01/13 7:18:04)
+[2023.01.12-13.18.04:119][371]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.01.12-13.18.04:131][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012356s)
+[2023.01.12-13.18.04:131][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.012423s)
+[2023.01.12-13.18.04:131][371]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-13.18.04:132][371]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.18.04:132][371]LogAIModule: Creating AISystem for world MainMap
+[2023.01.12-13.18.04:132][371]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2023.01.12-13.18.04:156][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.01.12-13.18.04:158][371]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.01.12-13.18.04:158][371]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.12-13.18.04:158][371]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.12-13.18.04:158][371]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.12-13.18.04:158][371]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.12-13.18.04:158][371]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.12-13.18.04:158][371]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.12-13.18.04:158][371]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.12-13.18.04:158][371]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.12-13.18.04:158][371]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.12-13.18.04:158][371]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.12-13.18.04:158][371]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.12-13.18.04:160][371]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.12-13.18.04:177][371]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (2- USBFC1-A)
+[2023.01.12-13.18.04:177][371]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.12-13.18.04:177][371]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.12-13.18.04:177][371]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.12-13.18.04:178][371]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.01.12-13.18.04:178][371]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.01.12-13.18.04:179][371]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.01.12-13.18.04:179][371]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.01.12-13.18.04:179][371]LogInit: FAudioDevice initialized.
+[2023.01.12-13.18.04:179][371]LogAudio: Display: Audio Device (ID: 37) registered with world 'MainMap'.
+[2023.01.12-13.18.04:193][371]LogLoad: Game class is 'GameModeBase'
+[2023.01.12-13.18.04:197][371]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.18.04:197][371]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.18.04:197][371]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.01.12-22.18.04
+[2023.01.12-13.18.04:198][371]LogWorld: Bringing up level for play took: 0.004452
+[2023.01.12-13.18.04:199][371]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2023.01.12-13.18.04:200][371]LogBlueprintUserMessages: [MainMap_C_19] Welcome! Let's relieve stress!
+[2023.01.12-13.18.04:200][371]LogBlueprintUserMessages: [MainMap_C_19] 0
+[2023.01.12-13.18.04:200][371]PIE: サーバーにログインしました
+[2023.01.12-13.18.04:201][371]PIE: PIE合計開始時間 0.082 秒。
+[2023.01.12-13.18.04:985][442]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile
+[2023.01.12-13.18.04:985][442]LogBlueprintUserMessages: [MainMap_C_19] 19
+[2023.01.12-13.18.05:272][468]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2023.01.12-13.18.05:272][468]LogBlueprintUserMessages: [MainMap_C_19] 18
+[2023.01.12-13.18.05:490][489]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2023.01.12-13.18.05:490][489]LogBlueprintUserMessages: [MainMap_C_19] 17
+[2023.01.12-13.18.05:716][510]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2023.01.12-13.18.05:716][510]LogBlueprintUserMessages: [MainMap_C_19] 16
+[2023.01.12-13.18.05:897][527]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2023.01.12-13.18.05:897][527]LogBlueprintUserMessages: [MainMap_C_19] 15
+[2023.01.12-13.18.06:114][548]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2023.01.12-13.18.06:114][548]LogBlueprintUserMessages: [MainMap_C_19] 14
+[2023.01.12-13.18.06:283][565]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2023.01.12-13.18.06:283][565]LogBlueprintUserMessages: [MainMap_C_19] 13
+[2023.01.12-13.18.06:465][583]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2023.01.12-13.18.06:465][583]LogBlueprintUserMessages: [MainMap_C_19] 12
+[2023.01.12-13.18.06:643][600]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2023.01.12-13.18.06:643][600]LogBlueprintUserMessages: [MainMap_C_19] 11
+[2023.01.12-13.18.06:954][630]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2023.01.12-13.18.06:954][630]LogBlueprintUserMessages: [MainMap_C_19] 10
+[2023.01.12-13.18.07:057][640]LogBlueprintUserMessages: [BP_Projectile_C_10] BP_Projectile10
+[2023.01.12-13.18.07:057][640]LogBlueprintUserMessages: [MainMap_C_19] 9
+[2023.01.12-13.18.07:259][659]LogBlueprintUserMessages: [BP_Projectile_C_11] BP_Projectile11
+[2023.01.12-13.18.07:259][659]LogBlueprintUserMessages: [MainMap_C_19] 8
+[2023.01.12-13.18.07:366][669]LogBlueprintUserMessages: [BP_Projectile_C_12] BP_Projectile12
+[2023.01.12-13.18.07:366][669]LogBlueprintUserMessages: [MainMap_C_19] 7
+[2023.01.12-13.18.07:448][677]LogBlueprintUserMessages: [BP_Projectile_C_13] BP_Projectile13
+[2023.01.12-13.18.07:448][677]LogBlueprintUserMessages: [MainMap_C_19] 6
+[2023.01.12-13.18.07:527][685]LogBlueprintUserMessages: [BP_Projectile_C_14] BP_Projectile14
+[2023.01.12-13.18.07:527][685]LogBlueprintUserMessages: [MainMap_C_19] 5
+[2023.01.12-13.18.07:623][694]LogBlueprintUserMessages: [BP_Projectile_C_15] BP_Projectile15
+[2023.01.12-13.18.07:623][694]LogBlueprintUserMessages: [MainMap_C_19] 4
+[2023.01.12-13.18.07:696][701]LogBlueprintUserMessages: [BP_Projectile_C_16] BP_Projectile16
+[2023.01.12-13.18.07:696][701]LogBlueprintUserMessages: [MainMap_C_19] 3
+[2023.01.12-13.18.07:887][719]LogBlueprintUserMessages: [BP_Projectile_C_17] BP_Projectile17
+[2023.01.12-13.18.07:887][719]LogBlueprintUserMessages: [MainMap_C_19] 2
+[2023.01.12-13.18.08:282][756]LogBlueprintUserMessages: [BP_Projectile_C_18] BP_Projectile18
+[2023.01.12-13.18.08:282][756]LogBlueprintUserMessages: [MainMap_C_19] 1
+[2023.01.12-13.18.08:509][778]LogBlueprintUserMessages: [BP_Projectile_C_19] BP_Projectile19
+[2023.01.12-13.18.08:509][778]LogBlueprintUserMessages: [MainMap_C_19] 0
+[2023.01.12-13.18.08:655][792]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.08:818][807]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.08:946][819]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.09:096][833]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.09:234][846]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.09:378][860]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.09:514][873]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.09:642][886]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.09:782][899]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.09:919][912]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.10:218][940]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.10:343][952]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.10:501][967]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.10:653][981]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.10:803][994]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.11:126][ 24]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.11:271][ 38]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.11:422][ 52]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.11:575][ 66]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.11:749][ 82]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.11:889][ 95]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.12:058][111]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.12:204][124]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.12:366][139]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.12:679][168]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.12:845][184]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.13:015][201]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.13:168][216]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.13:320][231]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.13:492][248]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.13:655][263]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.13:668][264]LogNet: Browse: /Game/MainMap
+[2023.01.12-13.18.13:669][264]LogLoad: LoadMap: /Game/MainMap
+[2023.01.12-13.18.13:669][264]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.01.12-13.18.13:669][264]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-13.18.13:670][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.18.13:727][264]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.12-13.18.13:731][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.12-13.18.13:735][264]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.01.12-13.18.13:748][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012586s)
+[2023.01.12-13.18.13:748][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.012673s)
+[2023.01.12-13.18.13:748][264]LogAudio: Display: Audio Device (ID: 37) registered with world 'MainMap'.
+[2023.01.12-13.18.13:748][264]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-13.18.13:748][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.18.13:749][264]LogAIModule: Creating AISystem for world MainMap
+[2023.01.12-13.18.13:749][264]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2023.01.12-13.18.13:749][264]LogLoad: Game class is 'GameModeBase'
+[2023.01.12-13.18.13:751][264]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.18.13:752][264]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.18.13:753][264]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.01.12-22.18.13
+[2023.01.12-13.18.13:753][264]LogWorld: Bringing up level for play took: 0.004310
+[2023.01.12-13.18.13:754][264]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.01.12-13.18.13:755][264]LogBlueprintUserMessages: [MainMap_C_19] Welcome! Let's relieve stress!
+[2023.01.12-13.18.13:755][264]LogBlueprintUserMessages: [MainMap_C_19] 0
+[2023.01.12-13.18.13:756][264]LogLoad: Took 0.087345 seconds to LoadMap(/Game/UEDPIE_0_MainMap)
+[2023.01.12-13.18.13:775][265]LogDerivedDataCache: C:/Users/aotak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.257 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.12-13.18.13:813][268]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile
+[2023.01.12-13.18.13:813][268]LogBlueprintUserMessages: [MainMap_C_19] 19
+[2023.01.12-13.18.13:962][283]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2023.01.12-13.18.13:962][283]LogBlueprintUserMessages: [MainMap_C_19] 18
+[2023.01.12-13.18.16:164][511]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2023.01.12-13.18.16:164][511]LogBlueprintUserMessages: [MainMap_C_19] 17
+[2023.01.12-13.18.16:359][530]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2023.01.12-13.18.16:359][530]LogBlueprintUserMessages: [MainMap_C_19] 16
+[2023.01.12-13.18.16:563][549]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2023.01.12-13.18.16:563][549]LogBlueprintUserMessages: [MainMap_C_19] 15
+[2023.01.12-13.18.16:790][570]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2023.01.12-13.18.16:790][570]LogBlueprintUserMessages: [MainMap_C_19] 14
+[2023.01.12-13.18.16:993][589]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2023.01.12-13.18.16:993][589]LogBlueprintUserMessages: [MainMap_C_19] 13
+[2023.01.12-13.18.17:470][635]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2023.01.12-13.18.17:470][635]LogBlueprintUserMessages: [MainMap_C_19] 12
+[2023.01.12-13.18.17:718][660]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2023.01.12-13.18.17:718][660]LogBlueprintUserMessages: [MainMap_C_19] 11
+[2023.01.12-13.18.18:223][706]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2023.01.12-13.18.18:223][706]LogBlueprintUserMessages: [MainMap_C_19] 10
+[2023.01.12-13.18.18:473][729]LogBlueprintUserMessages: [BP_Projectile_C_10] BP_Projectile10
+[2023.01.12-13.18.18:473][729]LogBlueprintUserMessages: [MainMap_C_19] 9
+[2023.01.12-13.18.18:664][746]LogBlueprintUserMessages: [BP_Projectile_C_11] BP_Projectile11
+[2023.01.12-13.18.18:664][746]LogBlueprintUserMessages: [MainMap_C_19] 8
+[2023.01.12-13.18.18:885][766]LogBlueprintUserMessages: [BP_Projectile_C_12] BP_Projectile12
+[2023.01.12-13.18.18:885][766]LogBlueprintUserMessages: [MainMap_C_19] 7
+[2023.01.12-13.18.19:096][785]LogBlueprintUserMessages: [BP_Projectile_C_13] BP_Projectile13
+[2023.01.12-13.18.19:096][785]LogBlueprintUserMessages: [MainMap_C_19] 6
+[2023.01.12-13.18.19:367][809]LogBlueprintUserMessages: [BP_Projectile_C_14] BP_Projectile14
+[2023.01.12-13.18.19:367][809]LogBlueprintUserMessages: [MainMap_C_19] 5
+[2023.01.12-13.18.19:595][829]LogBlueprintUserMessages: [BP_Projectile_C_15] BP_Projectile15
+[2023.01.12-13.18.19:595][829]LogBlueprintUserMessages: [MainMap_C_19] 4
+[2023.01.12-13.18.19:812][848]LogBlueprintUserMessages: [BP_Projectile_C_16] BP_Projectile16
+[2023.01.12-13.18.19:812][848]LogBlueprintUserMessages: [MainMap_C_19] 3
+[2023.01.12-13.18.19:993][864]LogBlueprintUserMessages: [BP_Projectile_C_17] BP_Projectile17
+[2023.01.12-13.18.19:993][864]LogBlueprintUserMessages: [MainMap_C_19] 2
+[2023.01.12-13.18.20:176][880]LogBlueprintUserMessages: [BP_Projectile_C_18] BP_Projectile18
+[2023.01.12-13.18.20:176][880]LogBlueprintUserMessages: [MainMap_C_19] 1
+[2023.01.12-13.18.20:359][897]LogBlueprintUserMessages: [BP_Projectile_C_19] BP_Projectile19
+[2023.01.12-13.18.20:359][897]LogBlueprintUserMessages: [MainMap_C_19] 0
+[2023.01.12-13.18.20:981][954]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.21:948][ 49]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.24:338][283]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.25:550][400]LogBlueprintUserMessages: [MainMap_C_19] Out of Ammo!! Restarting in 5 seconds.
+[2023.01.12-13.18.25:985][442]LogNet: Browse: /Game/MainMap
+[2023.01.12-13.18.25:985][442]LogLoad: LoadMap: /Game/MainMap
+[2023.01.12-13.18.25:985][442]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.01.12-13.18.25:985][442]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-13.18.25:986][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.18.26:012][442]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.12-13.18.26:015][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.01.12-13.18.26:018][442]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2023.01.12-13.18.26:028][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010801s)
+[2023.01.12-13.18.26:028][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.010862s)
+[2023.01.12-13.18.26:028][442]LogAudio: Display: Audio Device (ID: 37) registered with world 'MainMap'.
+[2023.01.12-13.18.26:029][442]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-13.18.26:029][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-13.18.26:029][442]LogAIModule: Creating AISystem for world MainMap
+[2023.01.12-13.18.26:029][442]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2023.01.12-13.18.26:029][442]LogLoad: Game class is 'GameModeBase'
+[2023.01.12-13.18.26:031][442]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.18.26:031][442]LogChaos: Warning: Attempting to release an actor with a null handle
+[2023.01.12-13.18.26:032][442]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.01.12-22.18.26
+[2023.01.12-13.18.26:032][442]LogWorld: Bringing up level for play took: 0.002662
+[2023.01.12-13.18.26:032][442]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.01.12-13.18.26:033][442]LogBlueprintUserMessages: [MainMap_C_19] Welcome! Let's relieve stress!
+[2023.01.12-13.18.26:033][442]LogBlueprintUserMessages: [MainMap_C_19] 0
+[2023.01.12-13.18.26:033][442]LogLoad: Took 0.047994 seconds to LoadMap(/Game/UEDPIE_0_MainMap)
+[2023.01.12-13.18.28:429][699]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile
+[2023.01.12-13.18.28:429][699]LogBlueprintUserMessages: [MainMap_C_19] 19
+[2023.01.12-13.18.28:795][736]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2023.01.12-13.18.28:795][736]LogBlueprintUserMessages: [MainMap_C_19] 18
+[2023.01.12-13.18.31:186][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.18.31:186][972]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2023.01.12-13.18.31:186][972]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-13.18.31:187][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.18.31:197][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.12-13.18.31:200][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-13.18.31:224][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-13.18.31:225][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.01.12-13.18.31:226][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.01.12-13.18.31:232][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.01.12-13.18.31:284][973]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2023.01.12-13.18.38:447][694]BlueprintLog: New page: BP_Projectile をコンパイル
+[2023.01.12-13.18.38:576][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.01.12-13.18.38:946][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Projectile" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/BP_Projectile.uasset" SILENT=true
+[2023.01.12-13.18.38:951][724]LogSavePackage: Moving output files for package: /Game/BP_Projectile
+[2023.01.12-13.18.38:952][724]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/BP_Projectile357ABE53401C2E5D2AABB391D876A90D.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/BP_Projectile.uasset'
+[2023.01.12-13.18.38:964][724]AssetCheck: New page: アセット保存：BP_Projectile
+[2023.01.12-13.18.38:965][724]LogContentValidation: Display: Blueprint /Game/BP_Projectile.BP_Projectile を検証しています
+[2023.01.12-13.18.52:320][266]BlueprintLog: New page: 関数に折りたたむ
+[2023.01.12-13.19.24:890][148]BlueprintLog: New page: MainMap をコンパイル
+[2023.01.12-13.19.24:937][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.01.12-13.19.25:356][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.12-13.19.25:383][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.01.12-13.19.25:417][191]LogSavePackage: Moving output files for package: /Game/MainMap
+[2023.01.12-13.19.25:418][191]LogSavePackage: Moving 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Saved/MainMap27DCF72F4079F43C31B5E9914A63B442.tmp' to 'C:/Users/aotak/OneDrive/デスクトップ/UnrealEngine_WareHouse/WarehouseWreckage/Content/MainMap.umap'
+[2023.01.12-13.19.25:425][191]LogFileHelpers: 保存する新たな変更はありません！
+[2023.01.12-13.19.25:425][191]LogFileHelpers: Saving map 'MainMap' took 0.070
+[2023.01.12-13.19.25:436][191]AssetCheck: New page: アセット保存：MainMap
+[2023.01.12-13.19.25:436][191]LogContentValidation: Display: World /Game/MainMap.MainMap を検証しています
